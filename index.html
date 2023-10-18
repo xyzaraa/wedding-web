@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wedding Invitation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- link to font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- simplyCountDown-->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="hero" class="hero w=100 h-100 p-3 mx-auto text-center d-flex justify-content-center alignt-items-center text-white">
+      <main>
+        <h4>Wedding Ceremony</h4>
+        <h1>Ogya & Zara</h1>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">View Invitation</a>
+      </main>
+    </section>
+    <!-- sidebar -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Gyara</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nara</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link " href="#home">Home</a>
+              <a class="nav-link" href="#information">Information</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">Action</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Another action</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Wedding Ceremony</h2>
+            <h3>Will Be Held On 24 December 2023 in St. Lucia</h3>
+            <p>Reception Will Be Held At The Jade Mountain Resort, Mamin, St. Lucia</p>
+          </div>
+          <div>
+            <div class="row couple">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-8 text-end">
+                    <h3>Ogya Adyatma Putra</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid asperiores adipisci cumque amet beatae expedita delectus ipsum molestias sint ea inventore, nesciunt velit fugiat non labore, alias reprehenderit repellat dicta?</p>
+                    <p>Son of Na Family</p>
+                  </div>
+                  <div class="col-4">
+                    <img src="img/ogya.jpg" alt="Ogya" class="img-responsive rounded-circle">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="img/zara.png" alt="Zara" class="img-responsive rounded-circle">
+                  </div>
+                  <div class="col-8">
+                    <h3>Kiara Azzahra</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid asperiores adipisci cumque amet beatae expedita delectus ipsum molestias sint ea inventore, nesciunt velit fugiat non labore, alias reprehenderit repellat dicta?</p>
+                    <p>Son of Jeon Family</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section id="information" class="information">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Event Information</h2>
+            <p class="address">Jade Mountain Resort, St. Lucia <br> Kobuk Valley National Park </p>
+            <a href="https://goo.gl/maps/2w5QYMp8F41EjsbR7" target="_blank" class="  btn-light m-3 mt-1">Click For Address</a>
+            <p style="font-style: italic ;" class="description">Please show this invitation to the relevant officers both at the airport and to the resort. All transportation and room costs are included in this invitation. Your presence is a pleasure for us. </p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-4">
+              <div class="card-header"> Reception </div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>3 PM</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar-day d-block"></i>
+                    <span>24 December 2023</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer"> We Really Appreciate Your Concern </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- story -->
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>It Start With Us</span>
+            <h2>Our Story</h2>
+            <p>I can draw a seedling with two tiny branches. Yours and mine. We’ll be on our own brand-new, tiny family tree—one that starts with us.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/memories1.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>First Meet</h3>
+                    <span>26 May 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Our first met at an internet cafe to play Valorant. Honestly, I didn't expect that the internet cafe was the first place we met haha. So that i think, because of Valorant we can be like this. Thanks Riot.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/memories2.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>First Dinner</h3>
+                    <span>26 May 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>At the same day, we have a dinner at Gacoan. It's all out of our plan. I still even remember about what we're talked that night. "conspiracy about what if pyramid was a symbolic of doraemon was present in this world lmao.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/memories3.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>First Meet</h3>
+                    <span>2 September 2022</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Our first time to take a pict together. We took a photo in front of the UMM DOME after the event of "Student Day Closure". </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/memories4.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Study Date</h3>
+                    <span>2 January 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>We always spend time at cafes in Malang. We never forget to bring our laptop bag, as if it's a package deal, there's no day or place without our laptop. Although Zara's bag is heavier, Ogya always swaps her bag to make it a little heavier.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/memories5.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>That's how it happen</h3>
+                    <span>20 March 2023</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>And suddenly, we've been together for a years. </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="galery" class="galery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memories Of</span>
+            <h2>Our Gallery</h2>
+            <p>I can draw a seedling with two tiny branches. Yours and mine. We’ll be on our own brand-new, tiny family tree—one that starts with us.</p>
+          </div>
+        </div>
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/t1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mygallery">
+              <img src="img/thumbnail/thumb1.png" alt="ogyazara1" class="img-fluid-w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/t2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mygallery">
+              <img src="img/thumbnail/thumb2.png" alt="ogyazara1" class="img-fluid-w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/t3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mygallery">
+              <img src="img/thumbnail/thumb3.png" alt="ogyazara1" class="img-fluid-w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/t4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mygallery">
+              <img src="img/thumbnail/thumb4.png" alt="ogyazara1" class="img-fluid-w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/t5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mygallery">
+              <img src="img/thumbnail/thumb5.png" alt="ogyazara1" class="img-fluid-w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/t6.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mygallery">
+              <img src="img/thumbnail/thumb6.png" alt="ogyazara1" class="img-fluid-w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/t7.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mygallery">
+              <img src="img/thumbnail/thumb7.png" alt="ogyazara1" class="img-fluid-w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/t8.JPG" data-toggle="lightbox" data-gallery="example-gallery" class="mygallery">
+              <img src="img/thumbnail/thumb8.png" alt="ogyazara1" class="img-fluid-w-100 rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+      simplyCountdown('.simply-countdown', {
+        year: 2023,
+        month: 12,
+        day: 28,
+        hours: 18,
+        minutes: 0,
+        seconds: 0,
+        words: {
+          days: {
+            singular: 'day',
+            plural: 'days'
+          },
+          hours: {
+            singular: 'hour',
+            plural: 'hours'
+          },
+          minutes: {
+            singular: 'minute',
+            plural: 'minutes'
+          },
+          seconds: {
+            singular: 'second',
+            plural: 'seconds'
+          }
+        },
+        refresh: 1000,
+      });
+    </script>
+    
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+      offcanvas.addEventListener('show.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'visible';
+      });
+      offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'hidden';
+      });
+    </script>
+    
+    <script>
+      function disableScroll() {
+        const rootElement = document.querySelector(":root");
+
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function() {
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function enableScroll() {
+        window.onscroll = function() {}
+        rootElement.style.scrollBehavior = 'smooth';
+        // localStorage.setItem('opened', 'true');
+      }
+    </script>
+  </body>
+</html>
